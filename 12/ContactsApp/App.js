@@ -17,9 +17,9 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}}/>
-        <Stack.Screen name="AddNewContactScreen" component={AddNewContactScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}}  />
-        <Stack.Screen name="EditContactScreen" component={EditContactScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}} />
-        <Stack.Screen name="ViewContactScreen" component={ViewContactScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}} />
+        <Stack.Screen name="Add" component={AddNewContactScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}}  />
+        <Stack.Screen name="Edit" component={EditContactScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}} />
+        <Stack.Screen name="View" component={ViewContactScreen} options={{ headerStyle: { backgroundColor: "#B83227"}}} />
       </Stack.Navigator>
     </NavigationContainer>
   );
