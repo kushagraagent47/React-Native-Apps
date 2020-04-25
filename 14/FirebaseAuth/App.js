@@ -11,14 +11,14 @@ import SigninScreen from './screens/SigninScreen';
 import SignupScreen from './screens/SignupScreen';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDt2RGgE4tSzBeaQf0IzeGyji28JTwy9xk",
-  authDomain: "reactproject-1938a.firebaseapp.com",
-  databaseURL: "https://reactproject-1938a.firebaseio.com",
-  projectId: "reactproject-1938a",
-  storageBucket: "reactproject-1938a.appspot.com",
-  messagingSenderId: "671598886181",
-  appId: "1:671598886181:web:f8d4c732877af481796ecc",
-  measurementId: "G-22JKWMD98Z"
+  apiKey: "*",
+  authDomain: "*",
+  databaseURL: "*",
+  projectId: "*",
+  storageBucket: "*",
+  messagingSenderId: "*",
+  appId: "*",
+  measurementId: "*"
 };
 
 if (!firebase.apps.length) {
